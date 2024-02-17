@@ -1,6 +1,6 @@
-import recipeIcon from "../assets/img/receipt-cutoff.png";
-import stackIcon from "../assets/img/stack.png";
-import UnionIcon from "../assets/img/Union.png";
+import recipeIcon from "/public/receipt-cutoff.png";
+import stackIcon from "/public/stack.png";
+import UnionIcon from "/public/Union.png";
 
 const UberUns = () => {
   return (

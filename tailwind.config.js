@@ -4,12 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "heroImage": "url('./src/assets/img/kitchen 5.png')",
-        "bgUberUns": "url('./src/assets/img/background.png')",
-        "recipeIcon": "url('./src/assets/img/receipt-cutoff.png')",
-        "stackIcon": "url('./src/assets/img/stack.png')",
-        "UnionIcon": "url('./src/assets/img/Union.png')",
-
+        "heroImage": "url('/public/kitchen 5.png')",
+        "bgUberUns": "url('/public/background.png')",
       },
       
       colors: {
