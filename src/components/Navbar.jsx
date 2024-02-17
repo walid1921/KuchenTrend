@@ -26,9 +26,9 @@ function Navbar() {
   };
 
   return (
-    <header className="sticky md:top-0 z-50">
+    <>
       <nav
-        className={`center-between py-5 px-10 z-20  transition-all ease-in-out duration-500 ${
+        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-50 w-full ${
           scrolling ? "bg-[rgba(114,114,114,.2)] backdrop-blur-md" : ""
         } `}
       >
@@ -57,7 +57,7 @@ function Navbar() {
         </ul>
 
         {/* ======== Menu Button ========= */}
-        <div className="md:hidden center-between py-5  z-30 sticky md:top-0 transition-all ease-in-out duration-500 ">
+        <div className="md:hidden center-between z-30 sticky md:top-0 transition-all ease-in-out duration-500 ">
           <Hamburger
             rounded
             color="#f5f5f5"
@@ -70,7 +70,7 @@ function Navbar() {
 
       {/* ======== Mobile Navbar ========= */}
       <div
-        className={`top-0 h-full w-[50%] ease-in-out ${
+        className={`top-0 h-full w-[60%] ease-in-out ${
           !isOpen
             ? "fixed right-[-100%] duration-1000"
             : "z-20  fixed right-0  max-lg:block hidden  duration-500"
@@ -92,7 +92,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </header>
+    </>
   );
 }
 

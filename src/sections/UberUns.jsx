@@ -6,7 +6,7 @@ const UberUns = () => {
   return (
     <section
       id="uberUns"
-      className="pt-16 2xl:px-[80px] px-10 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
+      className="pt-16 2xl:px-[80px] px-8 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
     >
       <h3 className="text-primary text-[18px] font-semibold text-center mb-16">
         ÜBER UNS
@@ -26,7 +26,7 @@ const UberUns = () => {
           Lösungen von Design bis Aufbau mit unseren Profis
         </h2>
 
-        <p className="2xl:text-[20px] text-[16px] 2xl:leading-[40px] leading-[30px] ">
+        <p className="2xl:text-[20px] text-[14px] text-justify 2xl:leading-[40px] leading-[30px] ">
           Ihre Küche zeigt, wer Sie sind, und ihr Design sollte Ihren Lebensstil
           widerspiegeln. Egal, ob Sie einen traditionellen Geschmack haben oder
           Neues ausprobieren möchten, wir helfen Ihnen, Ihre Traumküche zu
@@ -41,7 +41,7 @@ const UberUns = () => {
           />
           <div>
             <p className="text-[22px] font-bold mb-3">Bezahlbare Preise</p>
-            <p className="2xl:text-[18px] text-[16px] 2xl:leading-[40px] leading-[30px] ">
+            <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
               Wir lassen Möbel maßanfertigen, um die Bedürfnisse aller Menschen
               zu erfüllen und bieten sie zu ersch-winglichen und fairen Preisen
               an.
@@ -56,7 +56,7 @@ const UberUns = () => {
           />
           <div>
             <p className="text-[22px] font-bold mb-3">Exklusives Design</p>
-            <p className="2xl:text-[18px] text-[16px] 2xl:leading-[40px] leading-[30px] ">
+            <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
               Eine Mischung aus Vorstellungskraft, Erfahrung und
               Professionalität ist das Geheimnis unseres Designs!
             </p>
@@ -70,7 +70,7 @@ const UberUns = () => {
           />
           <div>
             <p className="text-[22px] font-bold mb-3">Professionelles Team</p>
-            <p className="2xl:text-[18px] text-[16px] 2xl:leading-[40px] leading-[30px] ">
+            <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
               Klein, aber fein: Unser Team kombiniert Professionalität mit
               familiärem Flair und setzt dabei kontinuierlich auf
               Weiterentwicklung.

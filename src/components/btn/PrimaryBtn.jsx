@@ -1,5 +1,5 @@
 function PrimaryBtn() {
-  return <button className="primaryBtn">TERMIN VEREINBAREN</button>;
+  return <button className="primaryBtn">Termin vereinbaren</button>;
 }
 
 export default PrimaryBtn;
