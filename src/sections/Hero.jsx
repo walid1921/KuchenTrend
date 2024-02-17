@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className={`h-[80vh] md:h-[100vh] relative bg-heroImage bg-no-repeat bg-cover bg-center `}
+      className={`h-[100vh] relative bg-heroImage bg-no-repeat bg-cover bg-center `}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
