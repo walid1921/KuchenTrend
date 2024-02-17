@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
       {/* Content */}
-      <div className="center-center md:h-[90%] h-[80%] w-full ">
+      <div className="center-center h-full w-full ">
         <div className="text-center xl:w-[50%] w-[95%] relative ">
           <h1 className="xl:text-[80px] lg:text-[60px] md:text-[40px] text-[30px] font-extrabold md:leading-[80px] bg-gradient-to-l from-white to-[#a5a5a5] bg-clip-text text-transparent animate-moveInLeft">
             Wir machen Ihre <span className="text-primary">Küche</span> zum
