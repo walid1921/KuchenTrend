@@ -1,6 +1,8 @@
+import { HiChevronUp } from "react-icons/hi";
+import { Fade as Hamburger } from "hamburger-react";
+
 import { useEffect, useState } from "react";
 import initNavAnimation from "../navAnimation";
-import { Fade as Hamburger } from "hamburger-react";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -92,6 +94,13 @@ function Navbar() {
           </li>
         </ul>
       </div>
+
+      <a
+        className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] backdrop-blur-sm bottom-0 right-0 z-50 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
+        href="#hero"
+      >
+        <HiChevronUp size={28} />
+      </a>
     </>
   );
 }

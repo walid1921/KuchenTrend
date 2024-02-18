@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 import Brands from "./components/Brands";
 import Numbers from "./components/Numbers";
 import Treffen from "./components/Treffen";
-import CopyRight from "./components/CopyRight";
 
 const App = () => {
   return (
@@ -33,7 +32,7 @@ const App = () => {
 
       <Footer />
 
-      <CopyRight />
+      
     </main>
   );
 };
