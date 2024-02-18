@@ -10,10 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
+    "embla-carousel-react": "^8.0.0-rc22",
+    "framer-motion": "^11.0.5",
     "gsap": "^3.12.5",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.4",
+    "react-icons": "^5.0.1",
+    "react-modal": "^3.16.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

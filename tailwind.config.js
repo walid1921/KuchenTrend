@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         "heroImage": "url('/public/kitchen 5.png')",
         "bgUberUns": "url('/public/background.png')",
+        "treffenBg": "url('/public/treffenBg.png')",
       },
       
       colors: {
@@ -79,7 +80,6 @@ export default {
         xl: "1280px",
         "2xl": "1536px",
       },
-      spacing: { big: "48rem" },
     },
   },
   plugins: [],

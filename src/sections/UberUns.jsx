@@ -6,9 +6,9 @@ const UberUns = () => {
   return (
     <section
       id="uberUns"
-      className="pt-16 2xl:px-[80px] px-8 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
+      className=" section 2xl:px-[80px] px-8 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
     >
-      <h3 className="text-primary text-[18px] font-semibold text-center mb-16">
+      <h3 className="text-primary text-[18px] font-semibold text-center mb-16 tracking-[4px]">
         ÜBER UNS
       </h3>
 
@@ -22,7 +22,7 @@ const UberUns = () => {
           </p>
         </div>
 
-        <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] text-left">
+        <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] text-left bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent">
           Lösungen von Design bis Aufbau mit unseren Profis
         </h2>
 

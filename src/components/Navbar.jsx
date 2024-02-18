@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-50 w-full ${
+        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-30 w-full ${
           scrolling ? "bg-[rgba(114,114,114,.2)] backdrop-blur-md" : ""
         } `}
       >
@@ -49,10 +49,10 @@ function Navbar() {
             <a href="#uberUns">Über uns</a>
           </li>
           <li className="nav-item hover-navLink">
-            <a href="#work">Work</a>
+            <a href="#projekte">Projekte</a>
           </li>
           <li className="nav-item hover-navLink">
-            <a href="#education">Education</a>
+            <a href="#kontakten">Kontakten</a>
           </li>
         </ul>
 
@@ -85,10 +85,10 @@ function Navbar() {
             <a href="#uberUns">Über uns</a>
           </li>
           <li className="nav-item hover-navLink">
-            <a href="#work">Work</a>
+            <a href="#projekte">Projekte</a>
           </li>
           <li className="nav-item hover-navLink">
-            <a href="#education">Education</a>
+            <a href="#kontakten">Kontakten</a>
           </li>
         </ul>
       </div>

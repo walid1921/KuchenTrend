@@ -1,34 +1,39 @@
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
-import Offers from "./sections/Offers";
 import Products from "./sections/UberUns";
-import Quality from "./sections/Quality";
+import Projekte from "./sections/Projekte";
 import Reviews from "./sections/Reviews";
 import Services from "./sections/Services";
-import Subscribe from "./sections/Subscribe";
 import Navbar from "./components/Navbar";
+import Brands from "./components/Brands";
+import Numbers from "./components/Numbers";
+import Treffen from "./components/Treffen";
+import CopyRight from "./components/CopyRight";
 
 const App = () => {
   return (
     <main className="relative">
-        <Navbar />
+      <Navbar />
 
-        <Hero />
-      
+      <Hero />
 
       <Products />
 
-      <Quality />
+      <Projekte />
+
+      <Brands />
 
       <Services />
 
-      <Offers />
-
       <Reviews />
 
-      <Subscribe />
+      <Numbers />
+
+      <Treffen />
 
       <Footer />
+
+      <CopyRight />
     </main>
   );
 };

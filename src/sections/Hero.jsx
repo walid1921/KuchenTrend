@@ -12,7 +12,7 @@ const Hero = () => {
       {/* Content */}
       <div className="center-center h-full w-full ">
         <div className="text-center xl:w-[50%] w-[95%] relative ">
-          <h1 className="xl:text-[80px] lg:text-[60px] md:text-[40px] text-[30px] font-extrabold md:leading-[80px] bg-gradient-to-l from-white to-[#a5a5a5] bg-clip-text text-transparent animate-moveInLeft">
+          <h1 className="xl:text-[80px] lg:text-[60px] md:text-[40px] text-[30px] font-extrabold md:leading-[80px] bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent animate-moveInLeft">
             Wir machen Ihre <span className="text-primary">Küche</span> zum
             Trend!
           </h1>
