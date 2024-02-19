@@ -54,23 +54,23 @@ function Navbar() {
         </div>
         <ul className="hidden md:flex gap-12">
           <li className="nav-item">
-            <Link to="hero" smooth duration={400}>
+            <Link to="hero" smooth duration={600}>
               Home
             </Link>
             <div className="active-nav "></div>
           </li>
           <li className="nav-item">
-            <Link to="uberUns" smooth duration={400}>
+            <Link to="uberUns" smooth duration={600}>
               Über uns
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="projekte" smooth duration={400}>
+            <Link to="projekte" smooth duration={600}>
               Projekte
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="kontakten" smooth duration={400}>
+            <Link to="kontakten" smooth duration={600}>
               Kontakten
             </Link>
           </li>
@@ -99,22 +99,22 @@ function Navbar() {
       >
         <ul className="center-center flex-col h-full gap-20 bg-[rgba(12,12,12,0.35)]  backdrop-blur-sm border-l-[1px] border-neutral-500 border-bg-white/20 md:text-lg text-md">
           <li className="nav-item">
-            <Link to="hero" smooth duration={400}>
+            <Link to="hero" smooth duration={600}>
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="uberUns" smooth duration={400}>
+            <Link to="uberUns" smooth duration={600}>
               Über uns
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="projekte" smooth duration={400}>
+            <Link to="projekte" smooth duration={600}>
               Projekte
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="kontakten" smooth duration={400}>
+            <Link to="kontakten" smooth duration={600}>
               Kontakten
             </Link>
           </li>
