@@ -56,14 +56,14 @@ const logos = [
 
 function Brands() {
   return (
-    <section className="section px-[270px]" >
+    <section className="md:section mt-10 lg:px-[270px] px-8" >
       <Marquee pauseOnHover={true} >
         {logos.map((logo) => (
-          <div key={logo.id} className="mr-16">
+          <div key={logo.id} className="md:mr-16 mr-6">
             <img
               src={logo.img}
               alt=""
-              className="h-[30px] bg-no-repeat bg-cover bg-center filter invert grayscale hover:grayscale-0 hover:invert-0 hover:cursor-pointer transition-all ease-in-out duration-300"
+              className="md:h-[30px] h-[15px] bg-no-repeat bg-cover bg-center filter invert grayscale hover:grayscale-0 hover:invert-0 hover:cursor-pointer transition-all ease-in-out duration-300"
             />
           </div>
         ))}

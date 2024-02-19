@@ -47,13 +47,13 @@ const steps = [
 
 const Services = () => {
   return (
-    <section className="section px-[270px]">
-      <div className="flex justify-start gap-8">
-        <div className="w-[40%]">
-          <h3 className="text-primary text-[18px] font-semibold  mb-16 tracking-[4px]">
+    <section className="section lg:px-[270px] px-8">
+      <div className="flex text-center lg:justify-start lg:flex-nowrap flex-wrap lg:gap-8">
+        <div className="lg:w-[40%] lg:mb-0 mb-12">
+          <h3 className="text-primary text-[18px] font-semibold mb-16 tracking-[4px]">
             WIE ARBEITEN WIR
           </h3>
-          <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent w-[566px]">
+          <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent 2xl:w-[566px]">
             6 einfache Schritte zur Innenraumgestaltung
           </h2>
           <p className="2xl:text-[20px] text-[14px]  2xl:leading-[40px] leading-[30px] text-justify">
@@ -63,7 +63,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="w-[60%]">
+        <div className="lg:w-[60%] w-full">
           <Slider steps={steps} />
         </div>
       </div>
