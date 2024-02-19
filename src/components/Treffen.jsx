@@ -8,7 +8,7 @@ function Treffen() {
 
       <div className="center-center flex-wrap lg:flex-nowrap  z-20">
         <div className="lg:w-[50%] text-center lg:text-left mb-20 mt-40 lg:mb-0 lg:mt-0">
-          <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[80px] tracking-[4px]">
+          <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[60px] tracking-[4px]">
             TREFFEN SIE UNSER TEAM
           </h3>
 

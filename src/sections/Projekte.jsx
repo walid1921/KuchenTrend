@@ -61,7 +61,7 @@ const Projekte = () => {
   return (
     <section id="projekte" className="md:section pt-[80px] flex flex-col md:gap-28 gap-16 w-full px-8 ">
       <div className="flex flex-col justify-center items-center">
-        <h3 className="text-primary text-[18px] font-semibold  md:mb-16 mb-[80px] tracking-[4px]">
+        <h3 className="text-primary text-[18px] font-semibold  md:mb-16 mb-[60px] tracking-[4px]">
           UNSERE PROJEKTE
         </h3>
 
