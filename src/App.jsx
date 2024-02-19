@@ -28,9 +28,9 @@ const App = () => {
 
        <Numbers />
 
-      {/*<Treffen />
+      <Treffen />
 
-      <Footer /> */}
+     {/* <Footer /> */}
     </main>
   );
 };
