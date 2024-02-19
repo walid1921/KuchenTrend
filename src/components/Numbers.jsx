@@ -10,7 +10,7 @@ function Numbers() {
             Beratungen vollendet
           </p>
         </div>
-        <div className="centre-center lg:border-l lg:border-t-0  border-t md:w-[70%] w-[100%] lg:px-[80px] lg:mb-0 mb-10 lg:pt-0 pt-5">
+        <div className="centre-center lg:border-l lg:border-t-0 border-t border-slate-600 md:w-[70%] w-[100%] lg:px-[80px] lg:mb-0 mb-10 lg:pt-0 pt-5">
           <p className="text-primary lg:text-left text-center font-extrabold text-[30px] md:text-[40px] 2xl:text-[80px]">
             48+
           </p>
@@ -18,7 +18,7 @@ function Numbers() {
             erfolgreiche Projekte
           </p>
         </div>
-        <div className="centre-center lg:border-l lg:border-t-0  border-t md:w-[70%] w-[100%] lg:px-[80px] lg:pt-0 pt-5">
+        <div className="centre-center lg:border-l lg:border-t-0  border-t border-slate-600 md:w-[70%] w-[100%] lg:px-[80px] lg:pt-0 pt-5">
           <p className="text-primary lg:text-left text-center font-extrabold text-[30px] md:text-[40px] 2xl:text-[80px]">
             20+
           </p>

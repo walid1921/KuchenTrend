@@ -81,9 +81,9 @@ const Projekte = () => {
           const { id, title, img } = projects;
           return (
             <div key={id} onClick={() => openProject(id)}>
-              <div className="relative hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105 ">
-                <img src={img} alt={title} className="rounded-md " />
-                <div className="absolute md:bottom-[6px] bottom-[4px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent  ">
+              <div className="relative hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105 rounded-lg">
+                <img src={img} alt={title} className="rounded-lg  " />
+                <div className="absolute md:bottom-[6px] bottom-[4px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent">
                   <h3 className="flex items-end justify-end h-full pb-8 pr-8">
                     {title}
                   </h3>

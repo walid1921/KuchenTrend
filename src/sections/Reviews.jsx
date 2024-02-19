@@ -13,9 +13,9 @@ const Reviews = () => {
           </h2>
         </div>
         <div className="flex flex-wrap lg:flex-nowrap lg:gap-6 w-full">
-          <div className="bg-[#353A40] flex flex-col gap-4 p-7 lg:w-[50%] mb-12 lg:mb-0 rounded-md">
+          <div className="bg-[#353A40] flex flex-col justify-between gap-4 p-7 lg:w-[50%] mb-12 lg:mb-0 rounded-md">
             <div><ImQuotesLeft size={32} className="text-primary ml-6" /></div>
-            <p className="2xl:text-[20px] md:text-center text-justify text-[14px]  2xl:leading-[40px] leading-[30px] italic ">
+            <p className="2xl:text-[20px] flex justify-start items-start h-full text-justify text-[14px]  2xl:leading-[40px] leading-[30px] italic ">
               Wir bedanken uns herzlich bei Herrn Caliskan für die nette
               Beratung und Umsetzung der Planung. Am Tag der Montage kamen die 2
               jungen Monteure, die wirklich cool drauf waren, die mir auch bei
@@ -26,9 +26,9 @@ const Reviews = () => {
             <p className="md:text-[22px] font-bold italic">Sascha Keller</p>
           </div>
 
-          <div className="bg-[#353A40] flex flex-col gap-4 p-7 lg:w-[50%] rounded-md">
+          <div className="bg-[#353A40] flex flex-col justify-between gap-4 p-7 lg:w-[50%] rounded-md">
             <div><ImQuotesLeft size={32} className="text-primary ml-6" /></div>
-            <p className="2xl:text-[20px] md:text-center text-justify text-[14px]  2xl:leading-[40px] leading-[30px] italic ">
+            <p className="2xl:text-[20px] flex justify-start items-start h-full text-justify text-[14px]  2xl:leading-[40px] leading-[30px] italic ">
               Ich bedanke mich bei Herrn Caliskan für die schnelle Umsetzung
               meiner kleinen Küche! Der Termin wurde wie versprochen Eingehalten
               und alles ohne große Komplikationen.
