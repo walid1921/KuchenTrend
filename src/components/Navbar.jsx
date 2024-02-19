@@ -77,7 +77,7 @@ function Navbar() {
         </ul>
 
         {/* ======== Menu Button ========= */}
-        <div className="md:hidden center-between z-30 sticky md:top-0 transition-all ease-in-out duration-500 ">
+        <div className="md:hidden center-between z-50 sticky md:top-0 transition-all ease-in-out duration-500 ">
           <Hamburger
             rounded
             color="#f5f5f5"
@@ -93,7 +93,7 @@ function Navbar() {
         className={`top-0 h-full w-[60%] ease-in-out ${
           !isOpen
             ? "fixed right-[-100%] duration-1000"
-            : "z-50  fixed right-0  max-lg:block hidden  duration-500"
+            : "z-40  fixed right-0  max-lg:block hidden  duration-500"
         }`}
         onClick={toggleMenu}
       >
