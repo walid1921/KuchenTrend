@@ -2,7 +2,7 @@ import { ImQuotesLeft } from "react-icons/im";
 
 const Reviews = () => {
   return (
-    <section className="md:section pt-[80px]  lg:px-[270px] px-8">
+    <section className="md:section pt-[80px]  lg:px-[270px] md:px-[80px] px-8">
       <div className="center-center flex-col lg:gap-14 ">
         <div className="mb-12">
           <h3 className="text-primary text-[18px] font-semibold text-center md:mb-16 mb-[60px] tracking-[4px]">

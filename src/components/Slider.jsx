@@ -19,7 +19,7 @@ export const Slider = ({ steps }) => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="flex gap-3">
           {steps.map((step) => (
-            <div key={step.id} className="bg-white md:w-[300px] px-4 pb-6 rounded-md">
+            <div key={step.id} className="bg-white md:w-[300px] md:px-[80px] px-4 pb-6 rounded-md">
               <p className="text-primary text-center font-extrabold text-[40px] 2xl:text-[130px] mx-9">
                 {step.number}
               </p>

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer
       id="kontakten"
-      className="md:section mt-[250px] mb-[20px] w-full  px-8"
+      className="md:section md:mt-[150px] mt-[250px] lg:mt-0 mb-[20px] w-full md:px-[80px] px-8"
     >
       <div className="flex justify-between flex-wrap lg:flex-nowrap  lg:px-10 w-full">
         <div className="flex flex-col items-center justify-center  lg:w-[70%] w-full gap-6 z-10 lg:mb-0 mb-16">
