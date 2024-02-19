@@ -40,7 +40,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-30 w-full ${
+        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-50 w-full ${
           scrolling ? "bg-[rgba(114,114,114,.2)] backdrop-blur-md" : ""
         } `}
       >
@@ -90,10 +90,10 @@ function Navbar() {
 
       {/* ======== Mobile Navbar ========= */}
       <div
-        className={`top-0 h-full w-[60%] ease-in-out ${
+        className={`top-0 h-full w-[60%] ease-in-out z-40 ${
           !isOpen
             ? "fixed right-[-100%] duration-1000"
-            : "z-40  fixed right-0  max-lg:block hidden  duration-500"
+            : "fixed right-0  max-lg:block hidden  duration-500"
         }`}
         onClick={toggleMenu}
       >
@@ -122,7 +122,7 @@ function Navbar() {
       </div>
 
       <Link
-        className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] backdrop-blur-sm bottom-0 right-0 z-50 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
+        className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] backdrop-blur-sm bottom-0 right-0 z-30 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
         onClick={scrollToTop}
       >
         <HiChevronUp size={28} />
