@@ -14,10 +14,10 @@ const Footer = () => {
     >
       <div className="flex justify-between flex-wrap lg:flex-nowrap  lg:px-10 w-full">
         <div className="flex flex-col items-center justify-center  lg:w-[70%] w-full gap-6 z-10 lg:mb-0 mb-16">
-          <div className={`text-2xl font-bold`}>
+          <div className={`text-2xl font-bold mb-6`}>
             <h2>Logo</h2>
           </div>
-          <div className="flex flex-col md:items-start items-center gap-6">
+          <div className="flex flex-col gap-6">
             <a
               href="https://www.instagram.com/kuechentrend?igsh=Y3FraDQxbWNocjRy"
               className="flex items-center hover:text-primary transition-all ease-in-out duration-200 gap-7"

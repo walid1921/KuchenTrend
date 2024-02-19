@@ -69,7 +69,7 @@ const Projekte = () => {
           Entdecken Sie unsere Küchendesigns
         </h2>
 
-        <p className="2xl:text-[20px] text-[14px] text-center 2xl:leading-[40px] leading-[30px] md:w-[924px]">
+        <p className="2xl:text-[20px] text-[14px] md:text-center text-justify 2xl:leading-[40px] leading-[30px] md:w-[924px]">
           Betrachten Sie die fertigen Küchen einiger unserer Kunden und sehen
           Sie, wie sie ihre Traumküche gestaltet haben. Holen Sie sich
           Inspiration und Ideen für Ihre eigene Küche.
