@@ -9,8 +9,15 @@ const initNavAnimation = () => {
 
   links.forEach((link) => {
     link.addEventListener("click", () => {
-      //! Turns nav Blue
-      gsap.to(links, { color: "#f5f5f5" });
+      //! Turns nav orange when clicked
+      gsap.to(link, { color: "#DCA14D" });
+
+      //! Turns nav white when not clicked
+      links.forEach((item) => {
+        if (item !== link) {
+          gsap.to(item, { color: "#fff" });
+        }
+      });
 
       if (document.activeElement === link) {
         gsap.to(link, {

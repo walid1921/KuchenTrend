@@ -20,7 +20,7 @@ const App = () => {
 
       <Projekte />
 
-      <Brands />
+      {/* <Brands />
 
       <Services />
 
@@ -30,7 +30,7 @@ const App = () => {
 
       <Treffen />
 
-      <Footer />
+      <Footer /> */}
 
       
     </main>

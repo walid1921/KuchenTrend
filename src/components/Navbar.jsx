@@ -3,6 +3,7 @@ import { Fade as Hamburger } from "hamburger-react";
 
 import { useEffect, useState } from "react";
 import initNavAnimation from "../navAnimation";
+import { Link, animateScroll } from "react-scroll";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -27,6 +28,15 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const scrollToTop = () => {
+    const options = {
+      duration: 500,
+      smooth: true,
+    };
+
+    animateScroll.scrollToTop(options);
+  };
+
   return (
     <>
       <nav
@@ -43,18 +53,26 @@ function Navbar() {
           <h2>Logo</h2>
         </div>
         <ul className="hidden md:flex gap-12">
-          <li className="nav-item hover-navLink">
-            <a href="#hero">Home</a>
-            <div className="active-nav h-[2px] bg-primary absolute left-0 -bottom-[13px] md:-bottom-[10px] w-full rounded-full"></div>
+          <li className="nav-item">
+            <Link to="hero" smooth duration={400}>
+              Home
+            </Link>
+            <div className="active-nav "></div>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#uberUns">Über uns</a>
+          <li className="nav-item">
+            <Link to="uberUns" smooth duration={400}>
+              Über uns
+            </Link>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#projekte">Projekte</a>
+          <li className="nav-item">
+            <Link to="projekte" smooth duration={400}>
+              Projekte
+            </Link>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#kontakten">Kontakten</a>
+          <li className="nav-item">
+            <Link to="kontakten" smooth duration={400}>
+              Kontakten
+            </Link>
           </li>
         </ul>
 
@@ -80,27 +98,35 @@ function Navbar() {
         onClick={toggleMenu}
       >
         <ul className="center-center flex-col h-full gap-20 bg-[rgba(12,12,12,0.35)]  backdrop-blur-sm border-l-[1px] border-neutral-500 border-bg-white/20 md:text-lg text-md">
-          <li className="nav-item hover-navLink">
-            <a href="#hero">Home</a>
+          <li className="nav-item">
+            <Link to="hero" smooth duration={400}>
+              Home
+            </Link>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#uberUns">Über uns</a>
+          <li className="nav-item">
+            <Link to="uberUns" smooth duration={400}>
+              Über uns
+            </Link>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#projekte">Projekte</a>
+          <li className="nav-item">
+            <Link to="projekte" smooth duration={400}>
+              Projekte
+            </Link>
           </li>
-          <li className="nav-item hover-navLink">
-            <a href="#kontakten">Kontakten</a>
+          <li className="nav-item">
+            <Link to="kontakten" smooth duration={400}>
+              Kontakten
+            </Link>
           </li>
         </ul>
       </div>
 
-      <a
+      <Link
         className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] backdrop-blur-sm bottom-0 right-0 z-50 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
-        href="#hero"
+        onClick={scrollToTop}
       >
         <HiChevronUp size={28} />
-      </a>
+      </Link>
     </>
   );
 }

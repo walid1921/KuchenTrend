@@ -59,31 +59,31 @@ const Projekte = () => {
   };
 
   return (
-    <section id="projekte" className="section flex flex-col gap-28">
-      <div className="flex flex-col justify-center items-center ">
+    <section id="projekte" className="section flex flex-col md:gap-28 gap-16 w-full px-8 ">
+      <div className="flex flex-col justify-center items-center">
         <h3 className="text-primary text-[18px] font-semibold  mb-16 tracking-[4px]">
           UNSERE PROJEKTE
         </h3>
 
-        <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent w-[566px]">
+        <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent md:w-[566px]">
           Entdecken Sie unsere Küchendesigns
         </h2>
 
-        <p className="2xl:text-[20px] text-[14px] text-center 2xl:leading-[40px] leading-[30px] w-[924px]">
+        <p className="2xl:text-[20px] text-[14px] text-center 2xl:leading-[40px] leading-[30px] md:w-[924px]">
           Betrachten Sie die fertigen Küchen einiger unserer Kunden und sehen
           Sie, wie sie ihre Traumküche gestaltet haben. Holen Sie sich
           Inspiration und Ideen für Ihre eigene Küche.
         </p>
       </div>
 
-      <div className="center-center flex-wrap gap-10 px-8">
+      <div className="center-center flex-wrap gap-10 ">
         {projects.map((projects) => {
           const { id, title, img } = projects;
           return (
             <div key={id} onClick={() => openProject(id)}>
               <div className="relative hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105 ">
                 <img src={img} alt={title} className="rounded-md " />
-                <div className="absolute bottom-[6px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent  ">
+                <div className="absolute md:bottom-[6px] bottom-[4px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent  ">
                   <h3 className="flex items-end justify-end h-full pb-8 pr-8">
                     {title}
                   </h3>

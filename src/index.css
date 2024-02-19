@@ -31,13 +31,15 @@
   .hover-service{
     @apply shadow-lg flex flex-col gap-4 w-full border rounded p-4 border-slate-200 hover:border-slate-400 hover:bg-[#1e2c45] cursor-pointer transition-all ease-in duration-200 transform hover:scale-[1.05] 
   }
-  .hover-navLink{
-    @apply hover:text-primary ease-in duration-150 
-  }
 
   .nav-item {
-    @apply relative font-semibold
+    @apply relative font-semibold hover:text-primary transition-all ease-in duration-150 cursor-pointer  
   }
+
+  .active-nav{
+    @apply h-[2px] bg-primary absolute left-0 -bottom-[13px] md:-bottom-[10px] w-full rounded-full
+  }
+
 
   .center-center{
     @apply flex items-center justify-center
@@ -54,6 +56,7 @@
   .primaryBtn{
     @apply text-white md:text-[16px] text-[12px] md:font-bold font-semibold   tracking-wide  rounded-full py-[10px] md:px-[40px] px-[20px] hover:cursor-pointer transition-all ease-in duration-150 bg-primary hover:bg-white hover:text-primary  gap-2
   }
+
 }
 
 *,
