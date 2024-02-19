@@ -34,7 +34,7 @@ export const Slider = ({ steps }) => {
         </div>
       </div>
 
-      <div className="flex gap-4 justify-center mt-6">
+      <div className="flex gap-4 justify-center mt-6 w-full">
         <button
           className="text-primary hover:text-white hover:border-white transition-all ease-linear duration-200 p-1 border rounded-full border-primary"
           onClick={scrollPrev}

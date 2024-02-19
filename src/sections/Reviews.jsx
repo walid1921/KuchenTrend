@@ -2,10 +2,10 @@ import { ImQuotesLeft } from "react-icons/im";
 
 const Reviews = () => {
   return (
-    <section className="section lg:px-[270px] px-8">
+    <section className="md:section pt-[80px]  lg:px-[270px] px-8">
       <div className="center-center flex-col lg:gap-14 ">
         <div className="mb-12">
-          <h3 className="text-primary text-[18px] font-semibold text-center mb-16 tracking-[4px]">
+          <h3 className="text-primary text-[18px] font-semibold text-center md:mb-16 mb-[80px] tracking-[4px]">
             UNSERE KUNDEN
           </h3>
           <h2 className=" 2xl:text-[45px] text-[28px] font-bold text-center 2xl:w-[677px] 2xl:leading-[60px] bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent">

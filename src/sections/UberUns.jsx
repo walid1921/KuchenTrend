@@ -6,9 +6,9 @@ const UberUns = () => {
   return (
     <section
       id="uberUns"
-      className=" section 2xl:px-[80px] px-8 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
+      className=" md:section pt-[80px] 2xl:px-[80px] px-8 bg-bgUberUns bg-center bg-no-repeat bg-cover w-full"
     >
-      <h3 className="text-primary text-[18px] font-semibold text-center mb-16 tracking-[4px]">
+      <h3 className="text-primary text-[18px] font-semibold text-center md:mb-16 mb-[80px] tracking-[4px]">
         ÜBER UNS
       </h3>
 

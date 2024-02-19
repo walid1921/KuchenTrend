@@ -47,10 +47,10 @@ const steps = [
 
 const Services = () => {
   return (
-    <section className="section lg:px-[270px] px-8">
+    <section className="md:section pt-[80px] lg:px-[270px] px-8">
       <div className="flex text-center lg:justify-start lg:flex-nowrap flex-wrap lg:gap-8">
         <div className="lg:w-[40%] lg:mb-0 mb-12">
-          <h3 className="text-primary text-[18px] font-semibold mb-16 tracking-[4px]">
+          <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[80px] tracking-[4px]">
             WIE ARBEITEN WIR
           </h3>
           <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent 2xl:w-[566px]">

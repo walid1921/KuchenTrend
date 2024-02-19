@@ -3,12 +3,12 @@ import kitchenlight from "/public/kitchenlight.png";
 
 function Treffen() {
   return (
-    <section className="relative section mt-[100px] 2xl:px-[80px] lg:mx-8 bg-treffenBg bg-center bg-no-repeat bg-cover h-[80vh] center-center ">
+    <section className="relative md:section pt-[80px] mt-[100px] 2xl:px-[80px] lg:mx-8 bg-treffenBg bg-center bg-no-repeat bg-cover h-[80vh] center-center ">
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
       <div className="center-center flex-wrap lg:flex-nowrap  z-20">
-        <div className="lg:w-[50%] text-center lg:text-left mb-20 lg:mb-0">
-          <h3 className="text-primary text-[18px] font-semibold mb-16 tracking-[4px]">
+        <div className="lg:w-[50%] text-center lg:text-left mb-20 mt-40 lg:mb-0 lg:mt-0">
+          <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[80px] tracking-[4px]">
             TREFFEN SIE UNSER TEAM
           </h3>
 

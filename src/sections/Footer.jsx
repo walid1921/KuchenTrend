@@ -8,7 +8,7 @@ const Footer = () => {
   const email = "info@kuechentrend-kayu.de";
 
   return (
-    <footer id="kontakten" className="section mb-[20px] w-full  px-8">
+    <footer id="kontakten" className="md:section mt-[250px] mb-[20px] w-full  px-8">
       <div className="flex justify-between flex-wrap lg:flex-nowrap  lg:px-10 w-full">
         <div className="flex flex-col items-center justify-center  lg:w-[70%] w-full gap-6 z-10 lg:mb-0 mb-16">
           <div className={`text-2xl font-bold`}>
@@ -55,8 +55,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <section className="section">
-        <p className="text-center text-[20px] text-slate-500">
+      <div className="md:section pt-[50px]">
+        <p className="text-center lg:text-[20px] text-[14px] text-slate-500">
           &copy; Copyright 2024 by{" "}
           <a
             target="_blank" // Opens the link in a new tab
@@ -67,7 +67,7 @@ const Footer = () => {
             @dev.n.des
           </a>
         </p>
-      </section>
+      </div>
     </footer>
   );
 };
