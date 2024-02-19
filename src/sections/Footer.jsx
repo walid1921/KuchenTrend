@@ -8,7 +8,10 @@ const Footer = () => {
   const email = "info@kuechentrend-kayu.de";
 
   return (
-    <footer id="kontakten" className="md:section mt-[250px] mb-[20px] w-full  px-8">
+    <footer
+      id="kontakten"
+      className="md:section mt-[250px] mb-[20px] w-full  px-8"
+    >
       <div className="flex justify-between flex-wrap lg:flex-nowrap  lg:px-10 w-full">
         <div className="flex flex-col items-center justify-center  lg:w-[70%] w-full gap-6 z-10 lg:mb-0 mb-16">
           <div className={`text-2xl font-bold`}>
@@ -45,7 +48,7 @@ const Footer = () => {
 
         <div className="lg:w-[30%] w-full">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.9488997390904!2d8.768409677014123!3d53.093152693637656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b129b45fe2e431%3A0xd2b8ff281d4705e!2sKonsul-Smidt-Stra%C3%9Fe%2039%2C%2028217%20Bremen!5e0!3m2!1sen!2sde!4v1708355827628!5m2!1sen!2sde"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4791.898099449299!2d8.770985!3d53.09315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b13d9523cdf61b%3A0x6cf82e40ef92f6be!2sK%C3%BCchentrend%20by%20Ka.Yu!5e0!3m2!1sen!2sde!4v1708372550071!5m2!1sen!2sde"
             title="map"
             allowFullScreen=""
             loading="lazy"
