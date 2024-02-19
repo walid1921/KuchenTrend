@@ -26,11 +26,11 @@ const App = () => {
 
       <Reviews />
 
-       <Numbers />
+      <Numbers />
 
       <Treffen />
 
-     {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
