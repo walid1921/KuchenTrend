@@ -93,7 +93,7 @@ function Navbar() {
         className={`top-0 h-full w-[60%] ease-in-out ${
           !isOpen
             ? "fixed right-[-100%] duration-1000"
-            : "z-20  fixed right-0  max-lg:block hidden  duration-500"
+            : "z-50  fixed right-0  max-lg:block hidden  duration-500"
         }`}
         onClick={toggleMenu}
       >
