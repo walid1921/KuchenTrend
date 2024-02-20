@@ -97,15 +97,12 @@ body {
 .embla__container {
   backface-visibility: hidden;
   display: flex;
-  gap: 160px;
   touch-action: pan-y;
   margin-left: calc(var(--slide-spacing) * -1);
 }
 .embla__slide {
   flex: 0 0 var(--slide-size);
   min-width: 0;
-  height: 520px;
-  width: 850px;
   position: relative;
 }
 .embla__slide__img {
@@ -136,7 +133,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 18px 20px;
 }
 
 .btn__invisible {
@@ -144,7 +140,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 18px 20px;
   top: -100%;
 }
 

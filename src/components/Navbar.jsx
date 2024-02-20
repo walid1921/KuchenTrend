@@ -4,6 +4,7 @@ import { Fade as Hamburger } from "hamburger-react";
 import { useEffect, useState } from "react";
 import initNavAnimation from "../navAnimation";
 import { Link, animateScroll } from "react-scroll";
+import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);

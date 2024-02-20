@@ -16,7 +16,7 @@ function Treffen() {
             Vereinbaren Sie einen kostenlosen Design-Beratungstermin
           </h2>
 
-          <PrimaryBtn />
+          <PrimaryBtn px={'20px'} py={'18px'} />
         </div>
         <div>
           <img src={kitchenlight} alt="" />

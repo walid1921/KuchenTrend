@@ -51,10 +51,12 @@ const ImageSlider = ({ projects, openProject }) => {
   return (
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container xl:gap-[160px] gap-8">
           {projects.map((index) => (
             <div
-              className="embla__slide relative "
+            // height: 520px;
+            // width: 850px;
+              className="embla__slide relative xl:h-[520px] xl:w-[850px] h-[250px] "
               key={index.id}
               style={{
                 ...(tweenValues.length && { opacity: tweenValues[index] }),
