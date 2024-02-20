@@ -35,13 +35,13 @@ function ProjektModal({ closeProject, projects, selectedProject }) {
             <HiOutlineX size={25} onClick={closeProject} />
           </button>
 
-          <div className="mt-10 flex flex-col justify-center items-center gap-5 lg:w-[400px] w-[250px]  ">
+          <div className="mt-10 flex flex-col justify-center items-center gap-5 lg:w-[900px] w-[250px]  ">
             <img
               src={
                 projects.find((project) => project.id === selectedProject).img
               }
               alt=""
-              className=" lg:h-[300px] object-cover object-center rounded-md"
+              className=" lg:h-[500px] object-cover object-center rounded-md"
             />
             <h2
               className="md:text-xl text-[14px]  text-center border-slate-600"

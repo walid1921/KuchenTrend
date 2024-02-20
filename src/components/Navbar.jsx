@@ -40,7 +40,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-50 w-full ${
+        className={`center-between md:py-5 py-3 md:px-10 px-5  transition-all ease-in-out duration-500 fixed z-50 w-full border-b border-neutral-500 ${
           scrolling ? "bg-[rgba(114,114,114,.2)] backdrop-blur-md" : ""
         } `}
       >
@@ -122,7 +122,7 @@ function Navbar() {
       </div>
 
       <Link
-        className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] backdrop-blur-sm bottom-0 right-0 z-30 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
+        className="fixed p-2 mb-5 mr-5 bg-[rgba(114,114,114,0.69)] border border-gray-400 backdrop-blur-sm bottom-0 right-0 z-30 rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white"
         onClick={scrollToTop}
       >
         <HiChevronUp size={28} />
