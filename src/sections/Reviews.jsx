@@ -13,7 +13,7 @@ const Reviews = () => {
           </h2>
         </div>
         <div className="flex flex-wrap lg:flex-nowrap lg:gap-6 w-full">
-          <div className="bg-[#353A40] flex flex-col justify-between gap-4 p-7 lg:w-[50%] mb-12 lg:mb-0 rounded-md">
+          <div className="bg-[#353A40] flex flex-col justify-between gap-4 p-7 lg:w-[50%] mb-12 lg:mb-0">
             <div>
               <ImQuotesLeft size={32} className="text-primary ml-6" />
             </div>
