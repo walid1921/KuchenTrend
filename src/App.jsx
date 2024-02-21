@@ -20,7 +20,10 @@ const App = () => {
 
       <Projekte />
 
-      <Brands />
+      <div className="section flex flex-col gap-8 ">
+        <Brands />
+        <Brands direction="right" paddingTop={"20px"} />
+      </div>
 
       <Services />
 
