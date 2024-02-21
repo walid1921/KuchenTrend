@@ -47,9 +47,9 @@ const steps = [
 
 const Services = () => {
   return (
-    <section className="md:section pt-[80px] lg:px-[270px] md:px-[80px] px-8">
+    <section className="md:section pt-[80px] lg:px-[270px] md:px-[80px]">
       <div className="flex text-center lg:text-start lg:flex-nowrap flex-wrap lg:gap-8">
-        <div className="lg:w-[40%] lg:mb-0 mb-12">
+        <div className="lg:w-[40%] lg:mb-0 mb-12 px-8 md:px-0">
           <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[60px] tracking-[4px]">
             WIE ARBEITEN WIR
           </h3>
