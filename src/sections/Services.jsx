@@ -6,42 +6,42 @@ const steps = [
     number: "01",
     title: "Kontaktieren Sie uns",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum. ",
   },
   {
     id: 2,
     number: "02",
     title: "Beratung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
   {
     id: 3,
     number: "03",
     title: "Planung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
   {
     id: 4,
     number: "04",
     title: "Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
   {
     id: 5,
     number: "05",
     title: "Produktion",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
   {
     id: 6,
     number: "06",
     title: "Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
 ];
 
