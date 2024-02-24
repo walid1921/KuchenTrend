@@ -1,9 +1,10 @@
-import { HiChevronUp } from "react-icons/hi";
+import { useEffect, useState } from "react";
+import { Link, animateScroll } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { Fade as Hamburger } from "hamburger-react";
 
-import { useEffect, useState } from "react";
+import { HiChevronUp } from "react-icons/hi";
 import initNavAnimation from "../navAnimation";
-import { Link, animateScroll } from "react-scroll";
 import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 function Navbar() {
@@ -71,6 +72,9 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <RouterLink to="gallery">Galerie</RouterLink>
+          </li>
+          <li className="nav-item">
             <Link to="kontakten" smooth duration={600}>
               Kontakten
             </Link>
@@ -113,6 +117,9 @@ function Navbar() {
             <Link to="projekte" smooth duration={600}>
               Projekte
             </Link>
+          </li>
+          <li className="nav-item">
+            <RouterLink to="gallery">Galerie</RouterLink>
           </li>
           <li className="nav-item">
             <Link to="kontakten" smooth duration={600}>

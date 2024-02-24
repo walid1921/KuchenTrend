@@ -54,25 +54,20 @@ const ImageSlider = ({ projects, openProject }) => {
         <div className="embla__container xl:gap-[160px] gap-8">
           {projects.map((index) => (
             <div
-            // height: 520px;
-            // width: 850px;
               className="embla__slide relative xl:h-[520px] xl:w-[850px] h-[250px] "
               key={index.id}
               style={{
                 ...(tweenValues.length && { opacity: tweenValues[index] }),
               }}
             >
-              <img
-                className="embla__slide__img hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105"
-                src={index.img}
-                alt="Your alt text"
-                onClick={() => openProject(index.id)}
-              />
-              {/* <div className="absolute md:bottom-[6px] bottom-[4px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent">
-                <h3 className="flex items-end justify-end h-full pb-8 pr-8">
-                  {index.title}
-                </h3>
-              </div> */}
+              <div className="imageFade">
+                <img
+                  className="embla__slide__img hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105"
+                  src={index.img}
+                  alt="Your alt text"
+                  onClick={() => openProject(index.id)}
+                />
+              </div>
             </div>
           ))}
         </div>

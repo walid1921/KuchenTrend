@@ -1,6 +1,5 @@
-import { useState } from "react";
+
 import kichen1 from "/public/kitchen1.png";
-import ProjektModal from "../components/ProjektModal";
 import ImageSlider from "../components/ImageSlider";
 
 const projects = [
@@ -49,15 +48,6 @@ const projects = [
 ];
 
 const Projekte = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
-
-  const openProject = (projectId) => {
-    setSelectedProject(projectId);
-  };
-
-  const closeProject = () => {
-    setSelectedProject(null);
-  };
 
   return (
     <section
@@ -80,31 +70,8 @@ const Projekte = () => {
         </p>
       </div>
 
-      {/* <div className="center-center flex-wrap gap-10 ">
-        {projects.map((projects) => {
-          const { id, title, img } = projects;
-          return (
-            <div key={id} onClick={() => openProject(id)}>
-              <div className="relative hover:cursor-pointer transition-all ease-in-out duration-300 hover:scale-105 ">
-                <img src={img} alt={title} />
-                <div className="absolute md:bottom-[6px] bottom-[4px] left-[2px] w-full h-1/2 bg-gradient-to-t from-black/85 to-transparent">
-                  <h3 className="flex items-end justify-end h-full pb-8 pr-8">
-                    {title}
-                  </h3>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div> */}
+      <ImageSlider projects={projects} />
 
-      <ImageSlider projects={projects} openProject={openProject} />
-      <ProjektModal
-        openProject={openProject}
-        closeProject={closeProject}
-        selectedProject={selectedProject}
-        projects={projects}
-      />
     </section>
   );
 };

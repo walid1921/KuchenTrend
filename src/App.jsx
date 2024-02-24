@@ -1,40 +1,27 @@
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
-import Products from "./sections/UberUns";
-import Projekte from "./sections/Projekte";
-import Reviews from "./sections/Reviews";
-import Services from "./sections/Services";
-import Navbar from "./components/Navbar";
-import Brands from "./components/Brands";
-import Numbers from "./components/Numbers";
-import Treffen from "./components/Treffen";
+import { Suspense, lazy } from "react";
+import { Route, Routes } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import Spinner from "./components/Spinner";
+import { useState } from "react";
+const Gallery = lazy(() => import("./pages/Gallery"));
 
 const App = () => {
+
   return (
-    <main className="relative">
-      <Navbar />
-
-      <Hero />
-
-      <Products />
-
-      <Projekte />
-
-      <div className="section flex flex-col gap-8 ">
-        <Brands />
-        <Brands direction="right" paddingTop={"20px"} />
-      </div>
-
-      <Services />
-
-      <Reviews />
-
-      <Numbers />
-
-      <Treffen />
-
-      <Footer />
-    </main>
+    <>
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route
+          path="gallery"
+          element={
+            <Suspense fallback={<Spinner />}>
+              <Gallery  />
+            </Suspense>
+          }
+        />
+      </Routes>
+    </>
   );
 };
 
